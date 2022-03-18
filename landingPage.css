@@ -80,10 +80,10 @@ body{
 
 @media (max-width: 600px) {
 	#contact .cover{
-		width: 400px;
+		width: 380px;
 	}
 
 	#contact .contain{
-		width: 400px;
+		width: 380px;
 	}
 }
