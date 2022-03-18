@@ -1,0 +1,89 @@
+body{
+	position: relative;
+}
+
+#homepage{
+	position: relative;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(peanut.jpg);
+	width: 100%;
+	color: #fff;
+}
+
+#about h2{
+	margin-top: 50px;
+}
+
+#about .card-group{
+	margin-bottom: 50px;
+}
+
+#contact{
+	background-color: skyblue;
+	
+}
+
+#contact .cover{
+	border: 8px solid deepskyblue;
+	width: 700px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: royalblue;
+}
+
+#contact .contain{
+	width: 500px;	
+}
+
+#contact .head{
+	color: white;
+}
+
+#contact .head h3{
+	margin-top: 50px;
+	font-weight: bolder;
+}
+
+#contact input{
+	border: none;
+	border-bottom: 2px solid deepskyblue;
+	background-color: transparent;
+	margin-top: 30px;
+	color: white;
+	outline: none;
+	width: 100%;
+}
+
+
+*::placeholder{
+	color: deepskyblue;
+	opacity: 1;
+}
+
+#contact button{
+	margin-top: 20px;
+	margin-bottom: 70px;
+	border-color: white;
+	color: white;
+}
+
+#contact button:hover{
+	background-color: deepskyblue;
+	border-color: skyblue;
+}
+
+.alert{
+	display: none;
+}
+
+@media (max-width: 600px) {
+	#contact .cover{
+		width: 400px;
+	}
+
+	#contact .contain{
+		width: 400px;
+	}
+}
